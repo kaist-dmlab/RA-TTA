@@ -1,0 +1,150 @@
+imagenet = [
+    'a bad photo of a {}.',
+    'a photo of many {}.',
+    'a sculpture of a {}.',
+    'a photo of the hard to see {}.',
+    'a low resolution photo of the {}.',
+    'a rendering of a {}.',
+    'graffiti of a {}.',
+    'a bad photo of the {}.',
+    'a cropped photo of the {}.',
+    'a tattoo of a {}.',
+    'the embroidered {}.',
+    'a photo of a hard to see {}.',
+    'a bright photo of a {}.',
+    'a photo of a clean {}.',
+    'a photo of a dirty {}.',
+    'a dark photo of the {}.',
+    'a drawing of a {}.',
+    'a photo of my {}.',
+    'the plastic {}.',
+    'a photo of the cool {}.',
+    'a close-up photo of a {}.',
+    'a black and white photo of the {}.',
+    'a painting of the {}.',
+    'a painting of a {}.',
+    'a pixelated photo of the {}.',
+    'a sculpture of the {}.',
+    'a bright photo of the {}.',
+    'a cropped photo of a {}.',
+    'a plastic {}.',
+    'a photo of the dirty {}.',
+    'a jpeg corrupted photo of a {}.',
+    'a blurry photo of the {}.',
+    'a photo of the {}.',
+    'a good photo of the {}.',
+    'a rendering of the {}.',
+    'a {} in a video game.',
+    'a photo of one {}.',
+    'a doodle of a {}.',
+    'a close-up photo of the {}.',
+    'a photo of a {}.',
+    'the origami {}.',
+    'the {} in a video game.',
+    'a sketch of a {}.',
+    'a doodle of the {}.',
+    'a origami {}.',
+    'a low resolution photo of a {}.',
+    'the toy {}.',
+    'a rendition of the {}.',
+    'a photo of the clean {}.',
+    'a photo of a large {}.',
+    'a rendition of a {}.',
+    'a photo of a nice {}.',
+    'a photo of a weird {}.',
+    'a blurry photo of a {}.',
+    'a cartoon {}.',
+    'art of a {}.',
+    'a sketch of the {}.',
+    'a embroidered {}.',
+    'a pixelated photo of a {}.',
+    'itap of the {}.',
+    'a jpeg corrupted photo of the {}.',
+    'a good photo of a {}.',
+    'a plushie {}.',
+    'a photo of the nice {}.',
+    'a photo of the small {}.',
+    'a photo of the weird {}.',
+    'the cartoon {}.',
+    'art of the {}.',
+    'a drawing of the {}.',
+    'a photo of the large {}.',
+    'a black and white photo of a {}.',
+    'the plushie {}.',
+    'a dark photo of a {}.',
+    'itap of a {}.',
+    'graffiti of the {}.',
+    'a toy {}.',
+    'itap of my {}.',
+    'a photo of a cool {}.',
+    'a photo of a small {}.',
+    'a tattoo of the {}.',
+]
+fgvc_aircraft = [
+    'a photo of a {}, a type of aircraft.',
+    'a photo of the {}, a type of aircraft.',
+]
+stanford_cars = [
+    'a photo of a {}, a type of car.',
+    'a photo of the {}, a type of car.',
+]
+oxford_flowers = [
+    'a photo of a {}, a type of flower.',
+    'a photo of the {}, a type of flower.',
+]
+food101 = [
+    'a photo of a {}, a type of food.',
+    'a photo of the {}, a type of food.',
+]
+oxford_pets = [
+    'a photo of a {}, a type of pet.',
+    'a photo of the {}, a type of pet.',
+]
+# sun397 = [
+#     'a photo of a {}.',
+#     'a photo of the {}.',
+# ]
+sun397 = ["itap of a {}.",
+          "a bad photo of the {}.",
+          "a origami {}.",
+          "a photo of the large {}.",
+          "a {} in a video game.",
+          "art of the {}.",
+          "a photo of the small {}."]
+
+resisc45 = [
+    'a satellite photo of {}.',
+]
+cub200 = [
+    'a photo of a {}, a type of bird.',
+    'a photo of the {}, a type of bird.',
+]
+# caltech101 = [
+#     'a photo of a {}.',
+#     'a photo of the {}.',
+# ]
+caltech101 = ["itap of a {}.",
+             "a bad photo of the {}.",
+             "a origami {}.",
+             "a photo of the large {}.",
+             "a {} in a video game.",
+             "art of the {}.",
+             "a photo of the small {}.",
+]
+# caltech256 = [
+#     'a photo of a {}.',
+#     'a photo of the {}.',
+# ]
+caltech256 = ["itap of a {}.",
+             "a bad photo of the {}.",
+             "a origami {}.",
+             "a photo of the large {}.",
+             "a {} in a video game.",
+             "art of the {}.",
+             "a photo of the small {}.",
+]
+dtd = [
+    'a photo of a {}, a type of texture.',
+    'a photo of the {}, a type of texture.',
+]
+ucf101 = ['a photo of a person doing {}.']
