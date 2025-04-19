@@ -82,7 +82,7 @@ for ind, category in tqdm(enumerate(category_list)):
 	else:
 		article = "a"
 	prompts = cupl_prompts[args.dataset]
-	if(args.dataset=='ucf101' or args.dataset=='country211'):
+	if(args.dataset=='ucf101'):
 		prompts = [p.format(category) for p in prompts]
 	else:
 		prompts = [p.format(article, category) for p in prompts]

@@ -32,8 +32,8 @@ The system RA-TTA used and tested in
 - pip install pot==0.9.4
 
 ## Datasets
-We adopt the same test splits for the datasets except Caltech256 and RESISC45. Please refer to this [[page](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)]. </br>
-The test split of RESISC45 and caltech256, please refer to this [[page](https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45)] and [[page](https://github.com/vishaal27/SuS-X/blob/main/data/DATA.md)], respectively. 
+For the test datasets except Caltech256 and RESISC45, please refer to this [[page](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)]. </br>
+For the test split of RESISC45 and caltech256, please refer to this [[page](https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45)] and [[page](https://github.com/vishaal27/SuS-X/blob/main/data/DATA.md)], respectively. 
 
 ## Download image vector database
 We provide the precomputed image embeddings as vector databases, which can be used to reproduce main results. </br>
