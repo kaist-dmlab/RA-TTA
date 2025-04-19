@@ -2,8 +2,7 @@
 [![ICLR'25](https://img.shields.io/badge/ICLR'25-blue)](https://iclr.cc)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-# RA-TTA
-Retrieval-Augmented Test-Time Adaptation for Vision-Language Models
+# RA-TTA: Retrieval-Augmented Test-Time Adaptation for Vision-Language Models
 
 ## About
 The official source code for [**RA-TTA: Retrieval-Augmented Test-Time Adaptation for Vision-Language Models**](https://openreview.net/pdf/86d3293ab2d788dc7a7a4cd22a101eba7e501237.pdf), accepted at ICLR 2025.
