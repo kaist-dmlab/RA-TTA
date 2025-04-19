@@ -32,6 +32,35 @@ The system RA-TTA used and tested in
 - pip install pandas==2.2.1
 - pip install pot==0.9.4
 
+#### Directory structure
+```
+RA-TTA/
+|–– data
+|–––– fgvc_aircraft
+|–––– ... 
+|–– db_embedding
+|–––– LAION2B_fgvc_aircraft_aux_ViT-B_16
+|–––– ... 
+|–– test_embedding
+|–––– ViT-B_16
+|–––––––– 0
+|–––––––––––– fgvc_aircraft.pth
+|–––––––––––– ... 
+|–– descriptions
+|–––– CuPL_prompts_fgvc_aircraft.json
+|–––– ... 
+|–– src
+|–––– datalaoder
+|–––– utils
+|–– imgs
+|–– logs
+|–– ratta_after_extract_imagenet.py
+|–– ratta_after_extract.py
+|–– ratta_pre_extract_imagenet.py
+|–– ratta_pre_extract.py
+|–– README.md
+```
+
 ## Datasets
 For the test datasets except Caltech256 and RESISC45, please refer to this [[page](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)]. </br>
 For the test split of RESISC45 and caltech256, please refer to this [[page](https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45)] and [[page](https://github.com/vishaal27/SuS-X/blob/main/data/DATA.md)], respectively. 
