@@ -5,13 +5,14 @@
 # RA-TTA
 Retrieval-Augmented Test-Time Adaptation for Vision-Language Models
 
+## About
+The official source code for [**RA-TTA: Retrieval-Augmented Test-Time Adaptation for Vision-Language Models**](https://openreview.net/pdf/86d3293ab2d788dc7a7a4cd22a101eba7e501237.pdf), accepted at ICLR 2025.
+
 ## Overview
 Vision-language models (VLMs) are known to be susceptible to distribution shifts between pre-training data and test data, and test-time adaptation (TTA) methods for VLMs have been proposed to mitigate the detrimental impact of the distribution shifts. However, the existing methods solely rely on the internal knowledge encoded within the model parameters, which are constrained to pre-training data. To complement the limitation of the internal knowledge, we propose Retrieval-Augmented-TTA (RA-TTA) for adapting VLMs to test distribution using external knowledge obtained from a web-scale image database. By fully exploiting the bi-modality of VLMs, RA-TTA adaptively retrieves proper external images for each test image to refine VLMs’ predictions using the retrieved external images, where fine-grained text descriptions are leveraged to extend the granularity of external knowledge. Extensive experiments on 17 datasets demonstrate that the proposed RA-TTA outperforms the state-of-the-art methods by 3.01–9.63% on average.
 
 ![Alt Text](imgs/RA_TTA_ICLR25.png)
 
-## About
-The official source code for [**RA-TTA: Retrieval-Augmented Test-Time Adaptation for Vision-Language Models**](https://openreview.net/pdf/86d3293ab2d788dc7a7a4cd22a101eba7e501237.pdf), accepted at ICLR 2025.
   
 ## Environments
 The system RA-TTA used and tested in
