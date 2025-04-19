@@ -61,3 +61,6 @@ If you found this work useful, please consider citing it as:
   year={2025}
 }
 ```
+
+## Acknowledgements
+We build on several great repositories including [CLIP](https://github.com/openai/CLIP/tree/main/clip), [CoOp](https://github.com/KaiyangZhou/CoOp/), [CuPL](https://github.com/sarahpratt/CuPL), and [SUS-X](https://github.com/vishaal27/SuS-X). We thank the authors for providing such amazing codebase and enabling research towards better vision-language model adaptation. We also thank the authors of the [LAION-5B](https://laion.ai/blog/laion-5b/) projects.
